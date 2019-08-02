@@ -1,0 +1,8 @@
+server:
+  port: 9007
+spring:
+  application:
+    name: SN-search
+  data:
+    elasticsearch:
+      cluster-nodes: 192.168.149.128:9300

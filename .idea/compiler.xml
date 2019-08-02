@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="tensquare_article" target="1.8" />
+      <module name="tensquare_base" target="1.8" />
+      <module name="tensquare_common" target="1.8" />
+      <module name="tensquare_config" target="1.8" />
+      <module name="tensquare_eureka" target="1.8" />
+      <module name="tensquare_friend" target="1.8" />
+      <module name="tensquare_gathering" target="1.5" />
+      <module name="tensquare_manager" target="1.8" />
+      <module name="tensquare_qa" target="1.8" />
+      <module name="tensquare_rabbitmqtest" target="1.5" />
+      <module name="tensquare_recruit" target="1.8" />
+      <module name="tensquare_search" target="1.5" />
+      <module name="tensquare_sms" target="1.8" />
+      <module name="tensquare_spit" target="1.8" />
+      <module name="tensquare_user" target="1.8" />
+      <module name="tensquare_web" target="1.8" />
+      <module name="ttttt" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="tensquare_article" options="-parameters" />
+      <module name="tensquare_base" options="-parameters" />
+      <module name="tensquare_common" options="-parameters" />
+      <module name="tensquare_config" options="-parameters" />
+      <module name="tensquare_eureka" options="-parameters" />
+      <module name="tensquare_friend" options="-parameters" />
+      <module name="tensquare_gathering" options="-parameters" />
+      <module name="tensquare_manager" options="-parameters" />
+      <module name="tensquare_qa" options="-parameters" />
+      <module name="tensquare_rabbitmqtest" options="-parameters" />
+      <module name="tensquare_recruit" options="-parameters" />
+      <module name="tensquare_search" options="-parameters" />
+      <module name="tensquare_sms" options="-parameters" />
+      <module name="tensquare_spit" options="-parameters" />
+      <module name="tensquare_user" options="-parameters" />
+      <module name="tensquare_web" options="-parameters" />
+      <module name="ttttt" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+server:
+  port: 9010
+spring:
+  application:
+    name: SN-friend
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.149.128:3307/SN_friend?characterEncoding=utf-8
+    username: root
+    password: ok
+  jpa:
+    database: MySQL
+    show-sql: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:6868/eureka/
+  instance:
+    prefer-ip-address: true
+jwt:
+  config:
+    key: itcast

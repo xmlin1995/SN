@@ -1,0 +1,17 @@
+server:
+  port: 12000
+spring:
+  application:
+    name: SN-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/linxianmin/SN_dev.git
+  rabbitmq:
+    host: 192.168.149.128
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh

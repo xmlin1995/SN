@@ -1,0 +1,13 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: SN-recruit
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.149.128:3307/SN_recruit?characterEncoding=UTF8
+    username: root
+    password: ok
+  jpa:
+    database: MySQL
+    show-sql: true

@@ -1,0 +1,11 @@
+server:
+  port: 9006
+spring:
+  application:
+    name: SN-spit
+  data:
+    mongodb:
+      host: 192.168.149.128
+      database: spitdb
+  redis:
+    host: 192.168.149.128

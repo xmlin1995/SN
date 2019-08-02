@@ -1,0 +1,21 @@
+server:
+  port: 9004
+spring:
+  application:
+    name: SN-article
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.149.128:3307/SN_article?characterEncoding=UTF8
+    username: root
+    password: ok
+  jpa:
+    database: MySQL
+    show-sql: true
+  redis:
+    host: 192.168.149.128
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:6868/eureka/
+  instance:
+    prefer-ip-address: true

@@ -1,0 +1,25 @@
+server:
+  port: 9003
+spring:
+  application:
+    name: SN-qa
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.149.128:3307/SN_qa?characterEncoding=UTF8
+    username: root
+    password: ok
+  jpa:
+    database: MySQL
+    show-sql: true
+jwt:
+  config:
+    key: itcast
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:6868/eureka/
+  instance:
+    prefer-ip-address: true
+feign:
+  hystrix:
+    enabled: true

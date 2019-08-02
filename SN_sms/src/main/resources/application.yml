@@ -1,0 +1,11 @@
+server:
+  port: 9009
+spring:
+  rabbitmq:
+    host: 192.168.149.128
+aliyun:
+  sms:
+    accessKeyId:
+    accessKeySecret:
+    template_code:
+    sign_name:
