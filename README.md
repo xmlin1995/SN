@@ -1,9 +1,3 @@
-# SocialNetwork
-# 社交网络(Social_Network)
-
-# 技术栈
-
-![image](https://s2.ax1x.com/2019/08/02/ewmDV1.jpg)
 
 # 已有功能
 
